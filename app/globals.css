@@ -1,4 +1,9 @@
 @import "tailwindcss";
 
 
-
+@theme {
+    --color-primary: #00413D;
+    --color-secondary: #E5745D;
+    --font-vollkorn: var(--font-vollkorn);
+    --font-jost: var(--font-jost)
+}
