@@ -12,7 +12,7 @@ const Servicecmmn = ({img, title, dec }) => {
       <p className="text-primary text-base font-jost w-[245px] leading-[24px] mt-[15px]">
        {dec}
       </p>
-      <div className="mt-7.5 cursor-pointer hover:text-secondary duration-200">
+      <div className="mt-7.5 cursor-pointer hover:text-secondary duration-200 inline-flex">
         <FaArrowRightLong />
       </div>
     </div>
