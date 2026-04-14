@@ -25,7 +25,7 @@ const Projects = () => {
                   <div className="w-1.5 h-1.5 bg-secondary rounded-full -ml-1"></div>
                 </div>
               </div>
-              <h4 className="text-xl text-secondary font-medium font-vollkorn uppercase">
+              <h4 className="text-xl text-secondary font-medium font-vollkorn">
                 Recent Projects
               </h4>
             </div>
