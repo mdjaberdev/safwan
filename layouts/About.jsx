@@ -40,11 +40,11 @@ const About = () => {
               aeci velit, sed quia non numquam eius modi tempora incidunt lao
               magnam aliquam quaerat voluptatem reprehenderit.
             </p>
-            <p className="pt-10 text-primary text-base font-jost leading-[26px]">
+            <p className="pt-10 text-primary text-base font-jost leading-6.5">
               Modi tempora incidunt ut lao magnam aliquam quaerat voluptatem
               reprehenderit non numquam eius.
             </p>
-            <Button className={"mt-[51px]"} btnText={"Download CV"} />
+            <Button className={"mt-12.75"} btnText={"Download CV"} />
           </div>
         </div>
         <div className="mt-20 flex justify-between">

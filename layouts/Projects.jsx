@@ -10,10 +10,10 @@ import { Navigation } from "swiper/modules";
 import Button from "@/components/common/Button";
 
 const Projects = () => {
-     const prevRef = useRef(null);
-     const nextRef = useRef(null);
+  const prevRef = useRef(null);
+  const nextRef = useRef(null);
   return (
-    <section className="mb-[120px]">
+    <section className="mb-30">
       <Container>
         <div className="">
           <div className="">
@@ -32,7 +32,7 @@ const Projects = () => {
             <div className="flex justify-between items-start">
               <div className="">
                 {" "}
-                <h3 className="text-primary text-[50px] font-medium font-vollkorn leading-[60px]">
+                <h3 className="text-primary text-[50px] font-medium font-vollkorn leading-15">
                   My Recent Projects
                 </h3>
               </div>

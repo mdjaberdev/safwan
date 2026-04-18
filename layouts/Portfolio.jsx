@@ -1,8 +1,8 @@
-import React from 'react'
+import React from "react";
 
 const Portfolio = () => {
   return (
-    <section className="mb-[120px]">
+    <section className="mb-30">
       <div className="text-center">
         <div className="flex items-center justify-center gap-x-3">
           {/* icon */}
@@ -16,29 +16,29 @@ const Portfolio = () => {
             My Portfolio
           </h4>
         </div>
-        <h3 className="text-primary text-[50px] font-medium font-vollkorn leading-[60px]">
+        <h3 className="text-primary text-[50px] font-medium font-vollkorn leading-15">
           My Work Example
         </h3>
-        <div className="text-primary text-base font-vollkorn flex gap-x-[26px] justify-center mt-[24px]">
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-[1px] relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+        <div className="text-primary text-base font-vollkorn flex gap-x-6.5 justify-center mt-6">
+          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
             All
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-[1px] relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
             Branding
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-[1px] relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
             Photography
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-[1px] relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
             Fashion
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-[1px] relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
             Product
           </button>
         </div>
       </div>
     </section>
   );
-}
+};
 
-export default Portfolio
+export default Portfolio;
