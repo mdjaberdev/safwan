@@ -5,6 +5,7 @@ import Service from "../../layouts/Service";
 import About from "@/layouts/About";
 import Projects from "@/layouts/Projects";
 import Portfolio from "@/layouts/Portfolio";
+import Footer from "@/layouts/Footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <About/>
       <Projects/>
       <Portfolio/>
+      <Footer/>
     </>
   );
 };
