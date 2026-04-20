@@ -1,3 +1,4 @@
+import Container from "@/components/common/Container";
 import React from "react";
 
 const Portfolio = () => {
@@ -37,6 +38,57 @@ const Portfolio = () => {
           </button>
         </div>
       </div>
+      <Container>
+        <div className="flex gap-x-7.5 mt-10">
+          <div className="group">
+            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+              <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
+                Motion Graphics
+              </h4>
+              <p className="text-white text-base font-jost group-hover:text-primary">
+                Website
+              </p>
+            </div>
+          </div>
+          <div className="group">
+            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+              <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
+                Motion Graphics
+              </h4>
+              <p className="text-white text-base font-jost group-hover:text-primary">
+                Website
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex gap-x-7.5 mt-7.5">
+          <div className="group">
+            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+              <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
+                Motion Graphics
+              </h4>
+              <p className="text-white text-base font-jost group-hover:text-primary">
+                Website
+              </p>
+            </div>
+          </div>
+          <div className="group">
+            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+              <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
+                Motion Graphics
+              </h4>
+              <p className="text-white text-base font-jost group-hover:text-primary">
+                Website
+              </p>
+            </div>
+          </div>
+        </div>
+       
+      </Container>
     </section>
   );
 };
