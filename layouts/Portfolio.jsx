@@ -1,7 +1,22 @@
+"use client"
 import Container from "@/components/common/Container";
-import React from "react";
+ import mixitup from 'mixitup';
+import { useEffect, useRef } from "react";
 
 const Portfolio = () => {
+  const containerRef = useRef(null); 
+  useEffect(() => {
+    if (containerRef.current) {
+      mixitup(containerRef.current, {
+        animation: {
+          duration: 400,
+        },
+        selectors: {
+          target: ".mix",
+        },
+      });
+    }
+  },[]);
   return (
     <section className="mb-30">
       <div className="text-center">
@@ -21,26 +36,26 @@ const Portfolio = () => {
           My Work Example
         </h3>
         <div className="text-primary text-base font-vollkorn flex gap-x-6.5 justify-center mt-6">
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button data-filter="all" className="btnProparty allBtn">
             All
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button data-filter=".branding" className="btnProparty ">
             Branding
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button data-filter=".photography" className="btnProparty ">
             Photography
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button data-filter=".fashion" className="btnProparty ">
             Fashion
           </button>
-          <button className="hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all">
+          <button data-filter=".product" className="btnProparty ">
             Product
           </button>
         </div>
       </div>
       <Container>
-        <div className="flex gap-x-7.5 mt-10">
-          <div className="group">
+        <div className="flex gap-x-7.5 mt-10" ref={containerRef}>
+          <div className="group mix branding">
             <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
@@ -51,7 +66,7 @@ const Portfolio = () => {
               </p>
             </div>
           </div>
-          <div className="group">
+          <div className="group mix product">
             <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
@@ -64,7 +79,7 @@ const Portfolio = () => {
           </div>
         </div>
         <div className="flex gap-x-7.5 mt-7.5">
-          <div className="group">
+          <div className="group mix photography">
             <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
@@ -75,7 +90,7 @@ const Portfolio = () => {
               </p>
             </div>
           </div>
-          <div className="group">
+          <div className="group mix fashion">
             <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
@@ -87,7 +102,6 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-       
       </Container>
     </section>
   );

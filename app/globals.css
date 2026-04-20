@@ -7,3 +7,6 @@
     --font-vollkorn: var(--font-vollkorn);
     --font-jost: var(--font-jost)
 }
+.btnProparty {
+    @apply hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all
+}
