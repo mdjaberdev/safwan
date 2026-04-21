@@ -6,6 +6,7 @@ import About from "@/layouts/About";
 import Projects from "@/layouts/Projects";
 import Footer from "@/layouts/Footer";
 import Portfolio from "@/layouts/Portfolio";
+import Testmonial from "@/layouts/Testmonial";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <About/>
       <Projects/>
       <Portfolio/>
+      <Testmonial/>
       <Footer/>
     </>
   );

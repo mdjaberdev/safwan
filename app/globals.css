@@ -10,3 +10,18 @@
 .btnProparty {
     @apply hover:after:bg-secondary after:w-0 hover:after:w-full after:h-px relative after:absolute after:bottom-0 after:left-0 after:duration-300 after:transition-all
 }
+.swiper-pagination {
+    bottom: 10px !important;
+    /* negative না */
+    left: 50%;
+    transform: translateX(-50%);
+}
+.swiper-pagination-bullet {
+    background-color: #E5745D !important;
+    height: 11px !important;
+    width: 11px !important;
+    border-radius: 50% !important;
+}
+.swiper {
+    padding-bottom: 60px;
+}

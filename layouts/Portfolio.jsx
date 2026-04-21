@@ -1,6 +1,6 @@
 "use client"
 import Container from "@/components/common/Container";
- import mixitup from 'mixitup';
+import mixitup from "mixitup";
 import { useEffect, useRef } from "react";
 
 const Portfolio = () => {
