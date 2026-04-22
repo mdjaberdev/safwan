@@ -1,22 +1,21 @@
 "use client"
 import Container from "@/components/common/Container";
-import mixitup from "mixitup";
 import { useEffect, useRef } from "react";
 
 const Portfolio = () => {
   const containerRef = useRef(null); 
-  useEffect(() => {
-    if (containerRef.current) {
-      mixitup(containerRef.current, {
-        animation: {
-          duration: 400,
-        },
-        selectors: {
-          target: ".mix",
-        },
-      });
-    }
-  },[]);
+useEffect(() => {
+  import("mixitup").then((mixitup) => {
+    const mixer = mixitup.default(containerRef.current, {
+      animation: {
+        duration: 400,
+      },
+      selectors: {
+        target: ".mix",
+      },
+    });
+  });
+}, []);
   return (
     <section className="mb-30">
       <div className="text-center">
