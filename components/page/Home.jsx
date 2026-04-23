@@ -7,6 +7,7 @@ import Projects from "@/layouts/Projects";
 import Footer from "@/layouts/Footer";
 import Portfolio from "@/layouts/Portfolio";
 import Testmonial from "@/layouts/Testmonial";
+import Getintuch from "@/layouts/Getintuch";
 
 const Home = () => {
   return (
@@ -18,6 +19,7 @@ const Home = () => {
       <Projects/>
       <Portfolio/>
       <Testmonial/>
+      <Getintuch/>
       <Footer/>
     </>
   );
