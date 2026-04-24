@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 const Testmonial = () => {
   return (
-    <section className="bg-[#F9F4F1] py-[121px] mb-[120px]">
+    <section className="bg-[#F9F4F1] pt-[121px] pb-[70px] mb-[120px]">
       <div className="text-center">
         <div className="flex items-center justify-center gap-x-3">
           {/* icon */}
@@ -30,7 +30,7 @@ const Testmonial = () => {
         </h3>
       </div>
       <Container className={"mt-[40px]"}>
-        <Swiper
+        <Swiper className=" mb-20"
           modules={[Pagination]}
           spaceBetween={0}
           slidesPerView={1}
@@ -39,7 +39,7 @@ const Testmonial = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <div className="flex gap-x-7.5">
+            <div className="flex gap-x-7.5 pb-20">
               <div className="w-[570px]">
                 <div className="w-[570px] h-[7px] bg-secondary"></div>
                 <div className="p-[30px] bg-white">

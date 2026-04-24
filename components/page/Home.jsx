@@ -8,6 +8,7 @@ import Footer from "@/layouts/Footer";
 import Portfolio from "@/layouts/Portfolio";
 import Testmonial from "@/layouts/Testmonial";
 import Getintuch from "@/layouts/Getintuch";
+import Letestblog from "@/layouts/Letestblog";
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <Portfolio/>
       <Testmonial/>
       <Getintuch/>
+    
       <Footer/>
     </>
   );
