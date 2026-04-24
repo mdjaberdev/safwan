@@ -15,14 +15,14 @@ const Home = () => {
     <>
       <Header />
       <Banner />
-      <Service/>
-      <About/>
-      <Projects/>
-      <Portfolio/>
-      <Testmonial/>
-      <Getintuch/>
-    
-      <Footer/>
+      <Service />
+      <About />
+      <Projects />
+      <Portfolio />
+      <Testmonial />
+      <Getintuch />
+      <Letestblog />
+      <Footer />
     </>
   );
 };

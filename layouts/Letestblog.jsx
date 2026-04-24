@@ -14,7 +14,7 @@ const Letestblog = () => {
               <div className="w-1.5 h-1.5 bg-secondary rounded-full -ml-1"></div>
             </div>
           </div>
-          <h4 className="text-xl text-secondary font-medium font-vollkorn uppercase">
+          <h4 className="text-xl text-secondary font-medium font-vollkorn">
             Letest Blogs
           </h4>
         </div>
