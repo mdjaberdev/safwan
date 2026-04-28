@@ -4,7 +4,7 @@ import React from "react";
 
 const Letestblog = () => {
   return (
-    <section className="mb-[120px]">
+    <section className="mb-30">
       <Container>
         <div className="flex items-center justify-center gap-x-3 ">
           {/* icon */}

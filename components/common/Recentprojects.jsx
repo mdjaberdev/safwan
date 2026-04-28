@@ -14,10 +14,10 @@ const Recentprojects = ({proName, title, dec}) => {
         <h4 className="text-primary text-2xl font-medium font-vollkorn w-[304px] leading-7.5">
          {title}
         </h4>
-        <p className="text-primary text-base font-jost w-[320px] leading-[24px] mt-2.5">
+        <p className="text-primary text-base font-jost w-[320px] leading-6 mt-2.5">
          {dec}
         </p>
-        <div className="inline-flex items-center gap-x-[6px] mt-[24px] text-primary text-lg font-medium font-jost cursor-pointer hover:text-secondary duration-150t">
+        <div className="inline-flex items-center gap-x-1.5 mt-6 text-primary text-lg font-medium font-jost cursor-pointer hover:text-secondary duration-150t">
           <button className='cursor-pointer'>View Case Studies </button>
           <FaArrowRight />
         </div>

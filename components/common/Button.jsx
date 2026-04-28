@@ -5,7 +5,7 @@ const Button = ({ btnText, className }) => {
     <button
       className={`font-jost font-medium text-lg text-white p-1.25 bg-secondary cursor-pointer ${className}`}
     >
-      <p className="border border-amber-50 py-[13px] px-[39px] ">{btnText}</p>
+      <p className="border border-amber-50 py-3.25 px-9.75 ">{btnText}</p>
     </button>
   );
 };

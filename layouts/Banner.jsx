@@ -13,7 +13,7 @@ const Banner = () => {
           <h1 className="text-6xl lg:text-[100px] text-white font-bold font-vollkorn leading-tight">
             I’m Zarror Nibors
           </h1>
-          <p className="text-xl text-white/50  font-jost lg:w-[690px] leading-7.5 mt-[14px] mb-[50px]">
+          <p className="text-xl text-white/50  font-jost lg:w-172.5 leading-7.5 mt-3.5 mb-12.5">
             I’am freelance <span className="text-white">UI/UX Desogner</span>{" "}
             based in Indonesia who loves to craft attractive design experiences
             for the web.

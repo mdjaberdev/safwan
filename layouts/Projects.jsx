@@ -115,7 +115,7 @@ const Projects = () => {
             </Swiper>
           </div>
         </div>
-        <div className="text-center mt-[60px]">
+        <div className="text-center mt-15">
           <Button btnText={"Explore More"} />
         </div>
       </Container>

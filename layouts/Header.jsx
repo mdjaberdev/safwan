@@ -14,7 +14,7 @@ const Header = () => {
             <Image src={logo} alt="LOgo" height={40} width={122} />
           </div>
           <nav>
-            <ul className="flex flex-col lg:flex-row gap-y-10 gap-x-[43px] items-center text-primary text-lg font-jost">
+            <ul className="flex flex-col lg:flex-row gap-y-10 gap-x-10.75 items-center text-primary text-lg font-jost">
               <Menulist
                 className={"hover:text-secondary duration-150"}
                 menuTxt={"Home"}

@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 const Testmonial = () => {
   return (
-    <section className="bg-[#F9F4F1] pt-[121px] pb-[70px] mb-[120px]">
+    <section className="bg-[#F9F4F1] pt-30.25 pb-17.5 mb-30">
       <div className="text-center">
         <div className="flex items-center justify-center gap-x-3">
           {/* icon */}
@@ -29,8 +29,9 @@ const Testmonial = () => {
           Feedback From Client
         </h3>
       </div>
-      <Container className={"mt-[40px]"}>
-        <Swiper className=" mb-20"
+      <Container className={"mt-10"}>
+        <Swiper
+          className=" mb-20"
           modules={[Pagination]}
           spaceBetween={0}
           slidesPerView={1}
@@ -40,16 +41,16 @@ const Testmonial = () => {
         >
           <SwiperSlide>
             <div className="flex gap-x-7.5 pb-20">
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
-                <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+              <div className="w-142.5">
+                <div className="w-142.5 h-1.75 bg-secondary"></div>
+                <div className="p-7.5 bg-white">
+                  <p className="text-primary text-base font-jost w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
                   </p>
                 </div>
-                <div className="flex gap-x-7.5 items-center px-[60px] py-[18px]">
+                <div className="flex gap-x-7.5 items-center px-15 py-4.5">
                   <Image src={client} alt="" />
                   <div className="">
                     <h4 className="text-primary text-xl font-semibold font-vollkorn">
@@ -62,16 +63,16 @@ const Testmonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
-                <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+              <div className="w-142.5">
+                <div className="w-142.5 h-1.75 bg-secondary"></div>
+                <div className="p-7.5 bg-white">
+                  <p className="text-primary text-base font-jost w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
                   </p>
                 </div>
-                <div className="flex gap-x-7.5 items-center px-[60px] py-[18px]">
+                <div className="flex gap-x-7.5 items-center px-15 py-4.5">
                   <Image src={client} alt="" />
                   <div className="">
                     <h4 className="text-primary text-xl font-semibold font-vollkorn">
@@ -86,16 +87,16 @@ const Testmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex gap-x-7.5">
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
-                <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+              <div className="w-142.5">
+                <div className="w-142.5 h-1.75 bg-secondary"></div>
+                <div className="p-7.5 bg-white">
+                  <p className="text-primary text-base font-jost w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
                   </p>
                 </div>
-                <div className="flex gap-x-7.5 items-center px-[60px] py-[18px]">
+                <div className="flex gap-x-7.5 items-center px-15 py-4.5">
                   <Image src={client} alt="" />
                   <div className="">
                     <h4 className="text-primary text-xl font-semibold font-vollkorn">
@@ -108,16 +109,16 @@ const Testmonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
-                <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+              <div className="w-142.5">
+                <div className="w-142.5 h-1.75 bg-secondary"></div>
+                <div className="p-7.5 bg-white">
+                  <p className="text-primary text-base font-jost w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
                   </p>
                 </div>
-                <div className="flex gap-x-7.5 items-center px-[60px] py-[18px]">
+                <div className="flex gap-x-7.5 items-center px-15 py-4.5">
                   <Image src={client} alt="" />
                   <div className="">
                     <h4 className="text-primary text-xl font-semibold font-vollkorn">

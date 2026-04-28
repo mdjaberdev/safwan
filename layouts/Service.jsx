@@ -1,14 +1,13 @@
-
-import Container from '@/components/common/Container';
-import Servicecmmn from '@/components/common/Servicecmmn';
-import React from 'react'
-import sOne from '../public/serviceOne.png'
-import sTwo from '../public/serviceTwo.png'
-import sThree from '../public/serviceThree.png'
+import Container from "@/components/common/Container";
+import Servicecmmn from "@/components/common/Servicecmmn";
+import React from "react";
+import sOne from "../public/serviceOne.png";
+import sTwo from "../public/serviceTwo.png";
+import sThree from "../public/serviceThree.png";
 
 const Service = () => {
   return (
-    <section className="mt-[220px] mb-[120px]">
+    <section className="mt-55 mb-30">
       <Container>
         <div className="text-center">
           <div className="flex items-center gap-x-3 justify-center">
@@ -23,7 +22,7 @@ const Service = () => {
               MY SERVICES
             </h4>
           </div>
-          <h3 className="text-[50px] text-primary font-medium font-vollkorn leading-[60px] lg:px-[300px]">
+          <h3 className="text-[50px] text-primary font-medium font-vollkorn leading-15 lg:px-75">
             Provide Wide Range of Digital Services
           </h3>
         </div>
@@ -55,6 +54,6 @@ const Service = () => {
       </Container>
     </section>
   );
-}
+};
 
-export default Service
+export default Service;

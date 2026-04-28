@@ -1,21 +1,21 @@
-"use client"
+"use client";
 import Container from "@/components/common/Container";
 import { useEffect, useRef } from "react";
 
 const Portfolio = () => {
-  const containerRef = useRef(null); 
-useEffect(() => {
-  import("mixitup").then((mixitup) => {
-    const mixer = mixitup.default(containerRef.current, {
-      animation: {
-        duration: 400,
-      },
-      selectors: {
-        target: ".mix",
-      },
+  const containerRef = useRef(null);
+  useEffect(() => {
+    import("mixitup").then((mixitup) => {
+      const mixer = mixitup.default(containerRef.current, {
+        animation: {
+          duration: 400,
+        },
+        selectors: {
+          target: ".mix",
+        },
+      });
     });
-  });
-}, []);
+  }, []);
   return (
     <section className="mb-30">
       <div className="text-center">
@@ -55,8 +55,8 @@ useEffect(() => {
       <Container>
         <div className="flex gap-x-7.5 mt-10" ref={containerRef}>
           <div className="group mix branding">
-            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
-            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
               </h4>
@@ -66,8 +66,8 @@ useEffect(() => {
             </div>
           </div>
           <div className="group mix product">
-            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
-            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
               </h4>
@@ -79,7 +79,7 @@ useEffect(() => {
         </div>
         <div className="flex gap-x-7.5 mt-7.5">
           <div className="group mix photography">
-            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
@@ -90,8 +90,8 @@ useEffect(() => {
             </div>
           </div>
           <div className="group mix fashion">
-            <div className="w-[570px] h-[450px] bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
-            <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
+            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
               </h4>

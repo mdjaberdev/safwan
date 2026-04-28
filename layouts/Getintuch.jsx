@@ -6,7 +6,7 @@ import Button from "@/components/common/Button";
 
 const Getintuch = () => {
   return (
-    <section className="mb-[120px]">
+    <section className="mb-30">
       <Container>
         <div className="flex flex-column lg:flex-row items-center gap-x-7.5">
           <div className="">
@@ -28,14 +28,14 @@ const Getintuch = () => {
             <h3 className="text-primary text-[50px] font-medium font-vollkorn">
               Feel Free to Contact
             </h3>
-            <div className="flex gap-x-[70px] mt-[40px]">
+            <div className="flex gap-x-17.5 mt-10">
               <div className="">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Enter Name
                 </label>
                 <div className="">
                   <input
-                    className="outline-none border-b w-[300px] border-[#00413D]/10"
+                    className="outline-none border-b w-75 border-[#00413D]/10"
                     type="text"
                     placeholder=""
                   />
@@ -54,7 +54,7 @@ const Getintuch = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-[70px] my-[55px]">
+            <div className="flex gap-x-17.5 my-13.75">
               <div className="">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Phone
@@ -80,7 +80,7 @@ const Getintuch = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-[50px]">
+            <div className="mb-12.5">
               <label className="text-[#00413D]/70 text-lg font-jost">
                 Subject
               </label>
