@@ -31,10 +31,10 @@ const Portfolio = () => {
             My Portfolio
           </h4>
         </div>
-        <h3 className="text-primary text-[50px] font-medium font-vollkorn leading-15">
+        <h3 className="text-primary text-4xl lg:text-[50px] font-medium font-vollkorn leading-15">
           My Work Example
         </h3>
-        <div className="text-primary text-base font-vollkorn flex gap-x-6.5 justify-center mt-6">
+        <div className="text-primary text-base font-vollkorn flex gap-6.5 justify-center mt-6 flex-col lg:flex-row">
           <button data-filter="all" className="btnProparty allBtn">
             All
           </button>
@@ -52,10 +52,10 @@ const Portfolio = () => {
           </button>
         </div>
       </div>
-      <Container>
-        <div className="flex gap-x-7.5 mt-10" ref={containerRef}>
+      <Container className={"px-3 lg:px-0"}>
+        <div className="flex flex-col lg:flex-row  gap-7.5 mt-10" ref={containerRef}>
           <div className="group mix branding">
-            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="lg:w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
@@ -66,7 +66,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="group mix product">
-            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="lg:w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
@@ -77,9 +77,9 @@ const Portfolio = () => {
             </div>
           </div>
         </div>
-        <div className="flex gap-x-7.5 mt-7.5">
+        <div className="flex flex-col lg:flex-row gap-7.5 mt-7.5">
           <div className="group mix photography">
-            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="lg:w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-[22px] px-[18px] bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics
@@ -90,7 +90,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="group mix fashion">
-            <div className="w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
+            <div className="lg:w-142.5 h-112.5 bg-[#C4C4C4] group-hover:bg-primary duration-300"></div>
             <div className="py-5.5 px-4.5 bg-primary group-hover:bg-[#C4C4C4] duration-300 ">
               <h4 className="text-white text-2xl font-semibold font-vollkorn group-hover:text-primary">
                 Motion Graphics

@@ -7,8 +7,8 @@ import Button from "@/components/common/Button";
 const Getintuch = () => {
   return (
     <section className="mb-30">
-      <Container>
-        <div className="flex flex-column lg:flex-row items-center gap-x-7.5">
+      <Container className={"px-3 lg:px-0"}>
+        <div className="flex flex-col-reverse lg:flex-row items-center gap-7.5">
           <div className="">
             <Image src={getIn} alt="" />
           </div>
@@ -28,7 +28,7 @@ const Getintuch = () => {
             <h3 className="text-primary text-[50px] font-medium font-vollkorn">
               Feel Free to Contact
             </h3>
-            <div className="flex gap-x-17.5 mt-10">
+            <div className="flex flex-col lg:flex-row gap-x-17.5 mt-10">
               <div className="">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Enter Name
@@ -41,7 +41,7 @@ const Getintuch = () => {
                   />
                 </div>
               </div>
-              <div className="">
+              <div className="mt-5 lg:mt-0">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Enter Email
                 </label>
@@ -54,7 +54,7 @@ const Getintuch = () => {
                 </div>
               </div>
             </div>
-            <div className="flex gap-x-17.5 my-13.75">
+            <div className="flex flex-col lg:flex-row  gap-x-17.5 my-5 lg:my-13.75">
               <div className="">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Phone
@@ -67,7 +67,7 @@ const Getintuch = () => {
                   />
                 </div>
               </div>
-              <div className="">
+              <div className="mt-5 lg:mt-02">
                 <label className="text-[#00413D]/70 text-lg font-jost">
                   Subject
                 </label>
@@ -80,7 +80,7 @@ const Getintuch = () => {
                 </div>
               </div>
             </div>
-            <div className="mb-12.5">
+            <div className="mb-5 lg:mb-12.5">
               <label className="text-[#00413D]/70 text-lg font-jost">
                 Subject
               </label>
