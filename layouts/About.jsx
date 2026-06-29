@@ -11,17 +11,17 @@ import { motion } from "framer-motion";
 
 const About = () => {
   const skills = [
-    { id:1, percent: 70, rotate: "rotate-[30deg]", title: "Graphic Design" },
-    { id:2, percent: 85, rotate: "-rotate-[35deg]", title: "Web Development" },
-    { id:3, percent: 60, rotate: "rotate-[65deg]", title: "Brand Design" },
-    { id:4, percent: 40, rotate: "rotate-[130deg]", title: "Web Development" },
+    { id: 1, percent: 70, rotate: "rotate-[30deg]", title: "Graphic Design" },
+    { id: 2, percent: 85, rotate: "-rotate-[35deg]", title: "Web Development" },
+    { id: 3, percent: 60, rotate: "rotate-[65deg]", title: "Brand Design" },
+    { id: 4, percent: 40, rotate: "rotate-[130deg]", title: "Web Development" },
   ];
 
   return (
     <section className="mb-30">
       <Container>
-        <div className="flex items-center gap-x-7.5">
-          <div className="w-142.5">
+        <div className="flex flex-col lg:flex-row items-center gap-x-7.5">
+          <div className="lg:w-142.5">
             <div className="flex gap-7.5">
               <Image src={aboutOne} alt="aboutOne" />
               <div className="flex flex-col gap-7.5">
@@ -30,13 +30,13 @@ const About = () => {
               </div>
             </div>
           </div>
-          <div className="w-142.5">
+          <div className="lg:w-142.5">
             <div className="flex items-center gap-x-3">
               <div className="flex items-center">
                 <div className="w-10 h-px bg-secondary"></div>
                 <div className="w-1.5 h-1.5 bg-secondary rounded-full -ml-1"></div>
               </div>
-              <h4 className="text-xl text-secondary font-medium font-vollkorn uppercase">
+              <h4 className="text-xl text-secondary font-medium font-vollkorn uppercase my-5 lg:my-0">
                 About Me
               </h4>
             </div>
@@ -53,11 +53,11 @@ const About = () => {
         </div>
 
         {/* Skill Circles Section */}
-        <div className="mt-20 flex justify-between">
+        <div className="mt-10 lg:mt-20 flex flex-col lg:flex-row justify-between">
           {skills.map((item, id) => (
             <div
               key={id}
-              className="shadow-[0_20px_100px_0_rgba(0,65,61,0.06)] bg-white py-7.5 px-8 text-center flex flex-col items-center"
+              className="shadow-[0_20px_100px_0_rgba(0,65,61,0.06)] bg-white lg:py-7.5 px-8 text-center flex flex-col items-center"
             >
               <div className="relative h-41.75 w-41.75">
                 <svg className={`h-full w-full ${item.rotate}`}>
