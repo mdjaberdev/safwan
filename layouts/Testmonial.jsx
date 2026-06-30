@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 const Testmonial = () => {
   return (
-    <section className="bg-[#F9F4F1] pt-30.25 pb-17.5 mb-30">
+    <section className="bg-[#F9F4F1] pt-16 lg:pt-30.25 pb-12 lg:pb-17.5 mb-16 lg:mb-30">
       <div className="text-center">
         <div className="flex items-center justify-center gap-x-3">
           {/* icon */}
@@ -25,7 +25,7 @@ const Testmonial = () => {
             Client Testimonial
           </h4>
         </div>
-        <h3 className="text-primary text-[50px] font-medium font-vollkorn">
+        <h3 className="text-primary text-3xl md:text-4xl lg:text-[50px] font-medium font-vollkorn">
           Feedback From Client
         </h3>
       </div>
@@ -40,11 +40,11 @@ const Testmonial = () => {
           onSwiper={(swiper) => console.log(swiper)}
         >
           <SwiperSlide>
-            <div className="flex gap-x-7.5 pb-20">
-              <div className="w-142.5">
-                <div className="w-142.5 h-1.75 bg-secondary"></div>
+            <div className="flex flex-col lg:flex-row gap-x-7.5 pb-20">
+              <div className="lg:w-142.5">
+                <div className="lg:w-142.5 h-1.75 bg-secondary"></div>
                 <div className="p-7.5 bg-white">
-                  <p className="text-primary text-base font-jost w-119 leading-6.5">
+                  <p className="text-primary text-base font-jost lg:w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
@@ -63,10 +63,10 @@ const Testmonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-142.5">
-                <div className="w-142.5 h-1.75 bg-secondary"></div>
+              <div className="lg:w-142.5">
+                <div className="lg:w-142.5 h-1.75 bg-secondary"></div>
                 <div className="p-7.5 bg-white">
-                  <p className="text-primary text-base font-jost w-119 leading-6.5">
+                  <p className="text-primary text-base font-jost lg:w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
@@ -87,10 +87,10 @@ const Testmonial = () => {
           </SwiperSlide>
           <SwiperSlide>
             <div className="flex gap-x-7.5">
-              <div className="w-142.5">
-                <div className="w-142.5 h-1.75 bg-secondary"></div>
+              <div className="lg:w-142.5">
+                <div className="lg:w-142.5 h-1.75 bg-secondary"></div>
                 <div className="p-7.5 bg-white">
-                  <p className="text-primary text-base font-jost w-119 leading-6.5">
+                  <p className="text-primary text-base font-jost lg:w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
@@ -109,10 +109,10 @@ const Testmonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-142.5">
-                <div className="w-142.5 h-1.75 bg-secondary"></div>
+              <div className="lg:w-142.5">
+                <div className="lg:w-142.5 h-1.75 bg-secondary"></div>
                 <div className="p-7.5 bg-white">
-                  <p className="text-primary text-base font-jost w-119 leading-6.5">
+                  <p className="text-primary text-base font-jost lg:w-119 leading-6.5">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
@@ -132,11 +132,11 @@ const Testmonial = () => {
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div className="flex gap-x-7.5">
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
+            <div className="flex flex-col lg:flex-row gap-x-7.5">
+              <div className="lg:w-[570px]">
+                <div className="lg:w-[570px] h-[7px] bg-secondary"></div>
                 <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+                  <p className="text-primary text-base font-jost lg:w-[476px] leading-[26px]">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
@@ -155,10 +155,10 @@ const Testmonial = () => {
                   </div>
                 </div>
               </div>
-              <div className="w-[570px]">
-                <div className="w-[570px] h-[7px] bg-secondary"></div>
+              <div className="lg:w-[570px]">
+                <div className="lg:w-[570px] h-[7px] bg-secondary"></div>
                 <div className="p-[30px] bg-white">
-                  <p className="text-primary text-base font-jost w-[476px] leading-[26px]">
+                  <p className="text-primary text-base font-jost lg:w-[476px] leading-[26px]">
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry.Lorem Ipsum is simply dummy text of the
                     printing and this typesetting industry.
