@@ -21,7 +21,7 @@ const Letestblog = () => {
         <h3 className="text-primary text-[50px] font-medium font-vollkorn text-center">
           Blog & Articles
         </h3>
-        <div className="flex gap-x-7.5">
+        <div className="flex flex-col lg:flex-row gap-x-7.5">
           <Blog
             blogger={"By David William"}
             blogName={"Quis autem vea eum iure reprehenderit."}
