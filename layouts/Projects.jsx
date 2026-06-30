@@ -1,17 +1,18 @@
 "use client";
 import Container from "@/components/common/Container";
 import Recentprojects from "@/components/common/Recentprojects";
-import React, { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import "swiper/css/navigation";
 import { Navigation } from "swiper/modules";
 import Button from "@/components/common/Button";
+import React, { useRef, useState } from "react";
 
 const Projects = () => {
   const prevRef = useRef(null);
   const nextRef = useRef(null);
+  const [activeBtn, setActiveBtn] = useState("prev");
   return (
     <section className="mb-30">
       <Container>
@@ -41,13 +42,17 @@ const Projects = () => {
                 <div className="flex gap-x-5">
                   <button
                     ref={prevRef}
-                    className="p-3  hover:bg-secondary  hover:text-white border border-[#00413D]/10"
+                    onClick={() => setActiveBtn("prev")}
+                    className={`p-3 border border-[#00413D]/10 transition-all
+                     ${activeBtn === "prev" ? "bg-secondary text-white" : " "}`}
                   >
                     <FaArrowLeft />
                   </button>
                   <button
                     ref={nextRef}
-                    className="p-3  hover:bg-secondary  hover:text-white border border-[#00413D]/10"
+                    onClick={() => setActiveBtn("next")}
+                    className={`p-3 border border-[#00413D]/10 transition-all
+                         ${activeBtn === "next" ? "bg-secondary text-white" : ""}`}
                   >
                     <FaArrowRight />
                   </button>
@@ -56,11 +61,25 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="mt-10 ">
+          <div className="mt-10">
             <Swiper
               modules={[Navigation]}
-              spaceBetween={1}
-              slidesPerView={3}
+              spaceBetween={20}
+              slidesPerView={1}
+              breakpoints={{
+                640: {
+                  slidesPerView: 1,
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 2,
+                  spaceBetween: 20,
+                },
+                1020: {
+                  slidesPerView: 3,
+                  spaceBetween: 1,
+                },
+              }}
               navigation={{
                 prevEl: prevRef.current,
                 nextEl: nextRef.current,
